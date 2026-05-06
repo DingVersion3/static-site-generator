@@ -1,6 +1,6 @@
 import unittest
 
-from htmlnode import HTMLNode
+from htmlnode import HTMLNode, LeafNode
 
 class TestHTMLNode(unittest.TestCase):
     def test_props_to_html_single(self):
@@ -37,6 +37,32 @@ class TestHTMLNode(unittest.TestCase):
         node = HTMLNode("p", "hello")
         with self.assertRaises(NotImplementedError):
             node.to_html()
+
+class TestLeafNode(unittest.TestCase):
+    def test_to_html_no_tag(self):
+        node = LeafNode(None, "hello")
+        self.assertEqual(node.to_html(), "hello")
+
+    def test_to_html_paragraph(self):
+        node = LeafNode("p", "This is a paragraph of text.")
+        self.assertEqual(node.to_html(), "<p>This is a paragraph of text.</p>")
+
+    def test_to_html_with_props(self):
+        node = LeafNode("a", "Click me!", {"href": "https://www.google.com"})
+        self.assertEqual(node.to_html(), '<a href="https://www.google.com">Click me!</a>')
+
+    def test_to_html_no_value_raises(self):
+        node = LeafNode("p", None)
+        with self.assertRaises(ValueError):
+            node.to_html()
+
+    def test_no_children(self):
+        node = LeafNode("p", "hello")
+        self.assertIsNone(node.children)
+
+    def test_repr(self):
+        node = LeafNode("p", "hello", {"class": "text"})
+        self.assertEqual(repr(node), "LeafNode(p, hello, {'class': 'text'})")
 
 
 if __name__ == "__main__":
