@@ -1,6 +1,6 @@
 import unittest
 
-from textnode import TextNode, TextType, text_node_to_html_node, split_nodes_delimiter, extract_markdown_images, extract_markdown_links
+from textnode import TextNode, TextType, text_node_to_html_node, split_nodes_delimiter, extract_markdown_images, extract_markdown_links, split_nodes_image, split_nodes_link, text_to_textnodes, markdown_to_blocks
 
 
 class TestTextNode(unittest.TestCase):
@@ -242,6 +242,74 @@ def test_split_link_at_end(self):
         TextNode("text then ", TextType.NORMAL),
         TextNode("link", TextType.LINK, "https://boot.dev"),
     ], new_nodes)
+
+def test_text_to_textnodes(self):
+    text = "This is **text** with an _italic_ word and a `code block` and an ![obi wan image](https://i.imgur.com/fJRm4Vk.jpeg) and a [link](https://boot.dev)"
+    nodes = text_to_textnodes(text)
+    self.assertListEqual([
+        TextNode("This is ", TextType.NORMAL),
+        TextNode("text", TextType.BOLD),
+        TextNode(" with an ", TextType.NORMAL),
+        TextNode("italic", TextType.ITALIC),
+        TextNode(" word and a ", TextType.NORMAL),
+        TextNode("code block", TextType.CODE),
+        TextNode(" and an ", TextType.NORMAL),
+        TextNode("obi wan image", TextType.IMAGE, "https://i.imgur.com/fJRm4Vk.jpeg"),
+        TextNode(" and a ", TextType.NORMAL),
+        TextNode("link", TextType.LINK, "https://boot.dev"),
+    ], nodes)
+
+def test_text_to_textnodes_plain(self):
+    nodes = text_to_textnodes("just plain text")
+    self.assertListEqual([TextNode("just plain text", TextType.NORMAL)], nodes)
+
+def test_text_to_textnodes_bold_only(self):
+    nodes = text_to_textnodes("**bold**")
+    self.assertListEqual([TextNode("bold", TextType.BOLD)], nodes)
+
+def test_text_to_textnodes_multiple_types(self):
+    nodes = text_to_textnodes("**bold** and _italic_")
+    self.assertListEqual([
+        TextNode("bold", TextType.BOLD),
+        TextNode(" and ", TextType.NORMAL),
+        TextNode("italic", TextType.ITALIC),
+    ], nodes)
+
+def test_markdown_to_blocks(self):
+    md = """
+This is **bolded** paragraph
+
+This is another paragraph with _italic_ text and `code` here
+This is the same paragraph on a new line
+
+- This is a list
+- with items
+"""
+    blocks = markdown_to_blocks(md)
+    self.assertEqual(blocks, [
+        "This is **bolded** paragraph",
+        "This is another paragraph with _italic_ text and `code` here\nThis is the same paragraph on a new line",
+        "- This is a list\n- with items",
+    ])
+
+def test_markdown_to_blocks_extra_newlines(self):
+    md = "block one\n\n\n\nblock two"
+    blocks = markdown_to_blocks(md)
+    self.assertEqual(blocks, ["block one", "block two"])
+
+def test_markdown_to_blocks_strips_whitespace(self):
+    md = "  block one  \n\n  block two  "
+    blocks = markdown_to_blocks(md)
+    self.assertEqual(blocks, ["block one", "block two"])
+
+def test_markdown_to_blocks_single_block(self):
+    md = "just one block"
+    blocks = markdown_to_blocks(md)
+    self.assertEqual(blocks, ["just one block"])
+
+def test_markdown_to_blocks_empty(self):
+    blocks = markdown_to_blocks("")
+    self.assertEqual(blocks, [])
 
 
 if __name__ == "__main__":
