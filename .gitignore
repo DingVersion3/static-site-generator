@@ -21,4 +21,4 @@ env/
 .DS_Store
 Thumbs.db
 *.log
-Zone.Identifier
+*Zone.Identifier
