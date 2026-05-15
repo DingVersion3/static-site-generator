@@ -111,6 +111,6 @@
 
 ## Pictures from my Uncle
 
-![Dexter image](/images/dexter_uncle1.jpg)
-![Dexter image](/images/dexter_uncle2.jpg)
-![Dexter image](/images/dexter_uncle3.jpg)
+![Dexter image](/images/dexter-uncle1.jpg)
+![Dexter image](/images/dexter-uncle2.jpg)
+![Dexter image](/images/dexter-uncle3.jpg)
