@@ -2,7 +2,7 @@
 
 [< Back Home](/)
 
-![Dexter image](/images/dexter_sis1.png)
+![Dexter image](/images/dexter_sis1.jpeg)
 
 > "Dexter had an amazing 11 years of life. I've add photos from family members here to keep his memory going."
 
@@ -105,27 +105,6 @@
 ![Dexter image](/images/dexter_sis92.jpg)
 ![Dexter image](/images/dexter_sis93.png)
 ![Dexter image](/images/dexter_sis94.png)
-![Dexter image](/images/sis_vid1.mp4)
-![Dexter image](/images/sis_vid2.mp4)
-![Dexter image](/images/sis_vid3.mov)
-![Dexter image](/images/sis_vid4.mp4)
-![Dexter image](/images/sis_vid5.mov)
-![Dexter image](/images/sis_vid6.mp4)
-![Dexter image](/images/sis_vid7.mov)
-![Dexter image](/images/sis_vid8.mp4)
-![Dexter image](/images/sis_vid9.mov)
-![Dexter image](/images/sis_vid10.mov)
-![Dexter image](/images/sis_vid11.mp4)
-![Dexter image](/images/sis_vid12.mp4)
-![Dexter image](/images/sis_vid13.mp4)
-![Dexter image](/images/sis_vid14.mp4)
-![Dexter image](/images/sis_vid15.mp4)
-![Dexter image](/images/sis_vid16.mp4)
-![Dexter image](/images/sis_vid17.mp4)
-![Dexter image](/images/sis_vid18.mp4)
-![Dexter image](/images/sis_vid19.mp4)
-![Dexter image](/images/sis_vid20.mp4)
-![Dexter image](/images/sis_vid21.mp4)
 
 
 ## Pictures from my Wife
