@@ -62,7 +62,6 @@
 ![Dexter image](/images/dexter_sis49.jpeg)
 ![Dexter image](/images/dexter_sis50.jpeg)
 ![Dexter image](/images/dexter_sis51.jpeg)
-![Dexter image](/images/dexter_sis52.jpeg)
 ![Dexter image](/images/dexter_sis53.jpeg)
 ![Dexter image](/images/dexter_sis54.jpeg)
 ![Dexter image](/images/dexter_sis55.jpeg)
