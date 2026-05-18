@@ -245,9 +245,6 @@ May 2nd, 2022
 ![Dexter image](/images/Snapchat-268102696.jpg)
 January 17th, 2023
 
-![Dexter image](/images/20230129_201312.jpg)
-January 29th, 2023
-
 ![Dexter image](/images/2b937be3-7df7-4726-9b99-3f34447d15c5.jpg)
 February 7th, 2023
 
@@ -614,76 +611,25 @@ December 8th, 2024
 ![Dexter image](/images/20241208_093245.jpg)
 December 8th, 2024
 
-![Dexter image](/images/20241208_093245(0).jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093245(1).jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093245(2).jpg)
-December 8th, 2024
-
 ![Dexter image](/images/20241208_093246.jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093246(0).jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093246(1).jpg)
 December 8th, 2024
 
 ![Dexter image](/images/20241208_093247.jpg)
 December 8th, 2024
 
-![Dexter image](/images/20241208_093247(0).jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093247(1).jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093247(2).jpg)
-December 8th, 2024
-
 ![Dexter image](/images/20241208_093248.jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093248(0).jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093248(1).jpg)
 December 8th, 2024
 
 ![Dexter image](/images/20241208_093249.jpg)
 December 8th, 2024
 
-![Dexter image](/images/20241208_093249(0).jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093249(1).jpg)
-December 8th, 2024
-
 ![Dexter image](/images/20241208_093250.jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093250(0).jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093250(1).jpg)
 December 8th, 2024
 
 ![Dexter image](/images/20241208_093251.jpg)
 December 8th, 2024
 
-![Dexter image](/images/20241208_093251(0).jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093251(1).jpg)
-December 8th, 2024
-
 ![Dexter image](/images/20241208_093252.jpg)
-December 8th, 2024
-
-![Dexter image](/images/20241208_093252(0).jpg)
 December 8th, 2024
 
 ![Dexter image](/images/20241208_093259.jpg)
@@ -700,9 +646,6 @@ December 19th, 2024
 
 ![Dexter image](/images/20241219_110615.jpg)
 December 19th, 2024
-
-![Dexter image](/images/20241225_105949.jpg)
-December 25th, 2024
 
 ![Dexter image](/images/20250105_094406.jpg)
 January 5th, 2025
@@ -944,49 +887,16 @@ February 15th, 2026
 ![Dexter image](/images/20260215_141234.jpg)
 February 15th, 2026
 
-![Dexter image](/images/20260215_141234(0).jpg)
-February 15th, 2026
-
-![Dexter image](/images/20260215_141234(1).jpg)
-February 15th, 2026
-
 ![Dexter image](/images/20260215_141235.jpg)
 February 15th, 2026
 
 ![Dexter image](/images/20260215_141236.jpg)
 February 15th, 2026
 
-![Dexter image](/images/20260215_141236(0).jpg)
-February 15th, 2026
-
-![Dexter image](/images/20260215_141236(1).jpg)
-February 15th, 2026
-
 ![Dexter image](/images/20260215_141237.jpg)
 February 15th, 2026
 
-![Dexter image](/images/20260215_141237(0).jpg)
-February 15th, 2026
-
-![Dexter image](/images/20260215_141237(1).jpg)
-February 15th, 2026
-
-![Dexter image](/images/20260215_141237(2).jpg)
-February 15th, 2026
-
 ![Dexter image](/images/20260215_141238.jpg)
-February 15th, 2026
-
-![Dexter image](/images/20260215_141238(0).jpg)
-February 15th, 2026
-
-![Dexter image](/images/20260215_141238(1).jpg)
-February 15th, 2026
-
-![Dexter image](/images/20260215_141238(2).jpg)
-February 15th, 2026
-
-![Dexter image](/images/20260215_141238(3).jpg)
 February 15th, 2026
 
 ![Dexter image](/images/20260215_141239.jpg)
