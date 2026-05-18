@@ -2,7 +2,7 @@
 
 [< Back Home](/)
 
-![Dexter image](/images/IMG_tskhfb.JPEG)
+![Dexter image](/images/IMG_tskhfb.jpg)
 
 > "Dexter had an amazing 11 years of life. I've added photos from family members here to keep his memory going."
 
